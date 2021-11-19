@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campeones</title>
+    <link rel="icon" href="../img/icono.jpg" type="image">
+</head>
+<body>
+    <article>
+        <center><h1><strong>Cuestionario pokemon</strong></h1>
+        <h3> Pon a prueba cuanto sabes de pokemon</h3></center>
+        <form action= "http://httpbin.org/post"  method="post">
+            <div>
+                <label for="Name"><strong>Nombre:</strong></label>
+                <input type="text" id="Name" name="Nombre" placeholder="Alberto" required autofocus>  
+                    <br><br>
+                <label for="Last name 1"><strong>Apellido 1:</strong></label>
+                <input type="text" id="Last name 1" name="Apellido1" placeholder="Muñoz" required>
+                    <br><br>
+                <label for="Last name 2"><strong>Apellido 2:</strong></label>
+                <input type="text" id="Last name 2" name="Apellido2" placeholder="Agudo" required>
+                    <br><br>
+                <label for="mail"><strong>Correo electronico:</strong></label>
+                <input type="email" id="mail" name="Correo electronico" placeholder="albetom@gmail.com" required>
+                    <br><br>
+            </div>
+            <div>
+                <h2>Elige la respuesta correcta</h2>
+                <fieldset>
+                    <legend><strong>De que tipo es el ataque Golpe aereo</strong></legend>
+                    <label for="Normal">Normal</label>
+                    <input type="radio" id="Normal" name="habilidades"> 
+                        <br>
+                    <label for="Lucha">Lucha</label>
+                    <input type="radio" id="Lucha" name="habilidades">
+                        <br>
+                    <label for="Volador">Volador</label>
+                    <input type="radio" id="Volador" name="habilidades">
+                        <br>
+                    <label for="Dragón">Dragón</label>
+                    <input type="radio" id="Dragón" name="habilidades">
+                        <br>
+                </fieldset>
+                <fieldset>
+                    <legend><strong>Cuales son los tipos del pokemon Charizard</strong></legend>
+                    <label for="A">Fuego Volador</label>
+                    <input type="radio" id="A" name="habilidades"> 
+                        <br>
+                    <label for="B">Fuego</label>
+                    <input type="radio" id="B" name="habilidades">
+                        <br>
+                    <label for="c">Dragon Volador</label>
+                    <input type="radio" id="c" name="habilidades">
+                        <br>
+                    <label for="d">FuegoDragón</label>
+                    <input type="radio" id="d" name="habilidades">
+                        <br>
+                </fieldset>
+                <fieldset>
+                        <legend><strong>¿Cuantos pokemon hay?</strong></legend>
+                        <label for="distanciadisparo"></label>
+                        <select name="Distancia de disparo" id="distanciadisparo" required>
+                            <option value="311">311</option>
+                            <option value="654">654</option>
+                            <option value="893">893</option>
+                            <option value="1003">1003</option>
+                        </select>
+                        <br>
+                </fieldset>
+                <fieldset>
+                    <legend><strong>¿Cuantos elementos hay?</strong></legend>
+                    <label for="distanciadisparo"></label>
+                    <select name="Distancia de disparo" id="distanciadisparo" required>
+                        <option value="12">12</option>
+                        <option value="15">15</option>
+                        <option value="21">21</option>
+                        <option value="18">18</option>
+                    </select>
+                    <br>
+                </fieldset>
+                <fieldset>
+                    <legend><strong>Selecciona a los dioses pokemon:</strong></legend>
+                    <label for="Arceus">Arceus</label>
+                    <input type="checkbox" id="Arceus" name="Arceus" multiple> 
+                        <br>
+                    <label for="Mewtwo">Mewtwo</label>
+                    <input type="checkbox" id="Mewtwo" name="Mewtwo" multiple>
+                        <br>
+                    <label for="Gyratina">Gyratina</label>
+                    <input type="checkbox" id="Gyratina" name="Gyratina" multiple>
+                        <br>           
+            </div>
+
+                <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </form>
+    </article>
+    <footer><center>Alejandro Rosado Royo I.E.S. Pablo Serrano</center></footer>
+</body>
+</html>
